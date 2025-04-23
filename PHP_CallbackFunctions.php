@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <?php
+    function my_callback($item) {
+    return strlen($item);
+    }
+
+    $strings = ["apple", "orange", "banana", "mango"];
+    $lengths = array_map("my_callback", $strings);
+    print_r($lengths);
+    ?>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="menu">
+    <?php include 'menu.php';?>
+    </div>
+
+    <h1>Selamat datang di beranda!</h1>
+    <p>Some text.</p>
+    <p>Some more text.</p>
+</body>
+</html>
